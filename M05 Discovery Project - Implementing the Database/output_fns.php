@@ -93,19 +93,19 @@ function display_registration_form() {
     <h2>Register Now</h2>
 
     <p><label for="email">Email Address:</label><br/>
-    <input type="email" name="email" id="email" 
+    <input type="email" name="email" id="email"
       size="30" maxlength="100" required /></p>
 
     <p><label for="username">Preferred Username <br>(max 16 chars):</label><br/>
-    <input type="text" name="username" id="username" 
+    <input type="text" name="username" id="username"
       size="16" maxlength="16" required /></p>
 
     <p><label for="passwd">Password <br>(between 6 and 16 chars):</label><br/>
-    <input type="password" name="passwd" id="passwd" 
+    <input type="password" name="passwd" id="passwd"
       size="16" maxlength="16" required /></p>
 
     <p><label for="passwd2">Confirm Password:</label><br/>
-    <input type="password" name="passwd2" id="passwd2" 
+    <input type="password" name="passwd2" id="passwd2"
       size="16" maxlength="16" required /></p>
 
 
@@ -186,7 +186,7 @@ function display_add_bm_form() {
     <h2>New Bookmark</h2>
 
     <p>
-    <input type="text" name="new_url" id="new_url" 
+    <input type="text" name="new_url" id="new_url"
       size="40"  maxlength="255" value="http://" required /></p>
 
     <button type="submit">Add Bookmark</button>
@@ -207,15 +207,15 @@ function display_password_form() {
     <h2>Change Password</h2>
 
     <p><label for="old_passwd">Old Password:</label><br/>
-    <input type="password" name="old_passwd" id="old_passwd" 
+    <input type="password" name="old_passwd" id="old_passwd"
       size="16" maxlength="16" required /></p>
 
     <p><label for="passwd2">New Password:</label><br/>
-    <input type="password" name="new_passwd" id="new_passwd" 
+    <input type="password" name="new_passwd" id="new_passwd"
       size="16" maxlength="16" required /></p>
 
     <p><label for="passwd2">Repeat New Password:</label><br/>
-    <input type="password" name="new_passwd2" id="new_passwd2" 
+    <input type="password" name="new_passwd2" id="new_passwd2"
       size="16" maxlength="16" required /></p>
 
 
@@ -236,7 +236,7 @@ function display_forgot_form() {
     <h2>Forgot Your Password?</h2>
 
     <p><label for="username">Enter Your Username:</label><br/>
-    <input type="text" name="username" id="username" 
+    <input type="text" name="username" id="username"
       size="16" maxlength="16" required /></p>
 
     <button type="submit">Change Password</button>
